@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+    nav{
+        .nav__mobile{
+        .nav__logo{
+            img{
+            width:30%;
+            }
+        }
+        .nav__items-mobile{
+            .nav__items-mobile-list{
+                &--active{
+                    transform: translateX(-170%);
+                }
+                a{
+                    padding: 2em 1em;
+                }
+            }
+        }
+    }
+    }
+}
